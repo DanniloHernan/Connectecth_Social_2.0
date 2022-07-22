@@ -1,0 +1,159 @@
+:root {
+    --colorTextos: #49454567;
+}
+
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Muli, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    /* background: #eb1008; */
+    /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #ecd60e, #cf3008); */
+    /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #f14906, #f9fd0a); */
+
+
+    background: rgb(28,114,147);
+    background: -moz-radial-gradient(circle, rgba(28,114,147,1) 0%, rgba(158,179,194,1) 50%, rgba(27,59,111,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(28,114,147,1) 0%, rgba(158,179,194,1) 50%, rgba(27,59,111,1) 100%);
+    background: radial-gradient(circle, rgba(28,114,147,1) 0%, rgba(158,179,194,1) 50%, rgba(27,59,111,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1c7293",endColorstr="#1b3b6f",GradientType=1);
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /*Mueve el cuadro */
+    height: 850px;
+    justify-content:center;
+    align-items: center;
+}
+/*Titulo de la encuesta*/
+h2{
+    font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-align: center;
+    font-weight: 700;
+}
+
+form{
+    background: #fff;
+    padding: 50px 50px;
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+}
+
+.form{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.control-label{
+    margin: 5px;
+    height: 20px;
+    font-size: 20px;
+
+}
+
+.radio-inline{
+    margin-left: 10px;
+}
+
+button{
+    font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+    background: rgb(16, 187, 187);  /* fallback for old browsers */
+   
+   
+    border: none;
+    border-radius: 10px;
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    color: rgb(5, 0, 0);
+    height: 40px;
+    font-size: 30px;
+    cursor: pointer;
+    letter-spacing: 5px;
+}
+
+@media screen and (max-width:500px){
+    form{
+        width: 80%;
+    }
+}
+
+.navbar{
+    background-color: #21295C;
+}
+ 
+ 
+.navbar .nav-link {
+    color: #9EB3C2;
+    margin-right: 29px;
+    transition: 0.2s;
+}
+ 
+a.nav-link:hover {
+    padding-bottom: 3px;
+    border-bottom: 2px solid #9EB3C2;
+}
+ 
+.btn-custom {
+    border: 2px solid #9EB3C2;
+    border-radius: 50px;
+    color: #9EB3C2;
+    background: none;
+    padding: 10px 20px;
+    margin-top: 50px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.6s;
+}
+ 
+.dropdown-menu{
+    border: 2px solid #9EB3C2;
+    border-radius: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+ 
+.contactomenu{
+    background-color: #21295C;
+}
+ 
+.contactomenu li a{
+    text-decoration: none;
+    padding: 5px;
+    color: #9EB3C2;
+}
+ 
+.contactomenu li a img{
+    padding-right: 10px;
+}
+ 
+.btn-custom:hover {
+    background: #9EB3C2;
+    color: #21295C;
+}
+ 
+
+.navbar-toggler {
+    padding: .10rem .45rem;
+    border: 1px solid white;
+}
+ 
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+ 
+.navbar-toggler i.bi-list {
+    color: white;
+    font-size: 1.6rem;
+}
+
