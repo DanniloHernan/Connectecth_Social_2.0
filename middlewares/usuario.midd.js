@@ -5,7 +5,7 @@ const Joi = require('joi');
 const servicesUsuarios = require('../app/controlador/controlador.cliente')
 const servJWT = require('../app/controlador/controlador.jwt')
 
-const { modelologin, modeloAlta } = require('./midd.modelo.usuarios');
+const { modelologin, modeloAlta } = require('./validacion.midd');
 
 module.exports.limiter = limiteConsultas({
     windowMs: 10*60*1000, //10 minutos
