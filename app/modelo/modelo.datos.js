@@ -5,7 +5,7 @@ const datosD = require('../../db/datosD.modelo')
 const datosHB = require('../../db/datosHB.modelo')
 const datosT = require('../../db/datosT.modelo')
 const connections = require('../../db/connection.modelo')
-const comentarios = require('../../db/comentarios')
+const comentarios = require('../../db/comentarios.modelo')
 const imagen = require('../../db/imagenes.modelo')
 
 const sequelize = require('../../db/conexion');
