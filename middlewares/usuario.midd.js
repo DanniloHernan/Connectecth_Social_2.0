@@ -67,7 +67,7 @@ module.exports.chequeoLogin = async (req,res,next)=>{
 
 module.exports.chequeoRegistro = async (req,res,next)=>{
     try {
-        let resultado = await Joi.attempt(req.body, modeloAlta, 'Los datos ingresados no son correctos')
+        let resultado = await Joi.attempt(req.body, modeloAlta, 'Los datos ingresados no son validos')
         console.log(Object.values(resultado) + ' Los datos ingresados son validos')
         return next()
     }catch(error){

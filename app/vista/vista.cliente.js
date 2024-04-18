@@ -29,7 +29,7 @@ module.exports = async (app)=> {
                 throw new Error (err)
             }
         }catch (err){
-            res.status(400).send('Hay un error con su peticion')
+            res.status(400).send('Hay un error con los datos proporcionados intente de nuevo')
         }
     })
 
